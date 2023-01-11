@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  max-width: 1920px;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+h1 {
+  padding: 7px 0px 10px 0px;
+  text-align: center;
+}
+
+.upload-form {
+  width: 30%;
+  margin: 100px auto;
+  padding: 5px 40px 40px 40px;
+  box-shadow: 3px 4px 7px silver;
+  background-color: none;
+}
+
+.upload-form .text-box {
+  display: block;
+  width: 100%;
+  margin: 18px auto 8px;
+  padding: 5px 5px;
+  color: black;
+  outline: none;
+}
+
+.success {
+  margin: 10px auto;
+  padding: 3px 8px;
+  background-color: #89f489;
+  color: #166002;
+  border-radius: 2px;
+}
+
+.error {
+  margin: 10px auto;
+  padding: 3px 8px;
+  background-color: #f49489;
+  color: #420101;
+  border-radius: 2px;
+}
+
+.cmn-error {
+  color: #ff0000;
+  font-size: 12px;
+}
+
+span {
+  color: #c4b700;
+  font-weight: 700;
+}
+
+.cmn-btn {
+  display: inline-block;
+  padding: 3px;
+  border: 1px solid #454e53;
+  background-color: #454e53;
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.container .gallery {
+  width: 80%;
+  margin: 30px auto;
+  padding: 5px;
+}
+
+.container .gallery .sub-ttl {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.container .gallery .images {
+  width: 200px;
+  padding: 5px;
+}
+
+.gallery .cmn-btn {
+  display: inline-block;
+  padding: 3px;
+  border: 1px solid #f49489;
+  background-color: #f49489;
+  color: #420101;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 3px;
+}

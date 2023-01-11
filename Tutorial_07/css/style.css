@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  max-width: 1920px;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+h1 {
+  padding: 10px 0;
+  color: #454e53;
+  text-align: center;
+}
+
+.form-blk {
+  float: left;
+  width: 50%;
+}
+
+.upload-form {
+  width: 50%;
+  margin: 100px auto;
+  padding: 5px 40px 40px 40px;
+  box-shadow: 3px 4px 7px silver;
+  background-color: none;
+}
+
+.upload-form .text-box {
+  display: block;
+  width: 100%;
+  margin: 18px auto 8px;
+  padding: 5px 5px;
+  border: 1px solid #454e53;
+  color: #454e53;
+  outline: none;
+}
+
+.cmn-error {
+  color: #ff0000;
+  font-size: 12px;
+}
+
+.generate-btn {
+  display: inline-block;
+  padding: 7px;
+  border: 1px solid #454e53;
+  background-color: #454e53;
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.generate-btn:hover {
+  background-color: #FFFFFF;
+  color: #454e53;
+  transition: 0.8;
+}
+
+.container .resut-qrcode {
+  float: right;
+  width: 50%;
+  margin: 30px auto;
+  padding: 5px;
+
+}
+
+.container .resut-qrcode .sub-ttl {
+  padding: 30px 0;
+  color: #454e53;
+  text-align: center;
+}
+
+.container .resut-qrcode .image {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  padding: 5px;
+}

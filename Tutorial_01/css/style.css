@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.table {
+  width: 500px;
+  margin: 60px auto;
+  padding: 0;
+  border: 2px solid #000000;
+  column-span: 0;
+}
+
+.chess {
+  width: 20px;
+  height: 55px;
+  padding: 0;
+}
+
+.bg-dark {
+  background-color: #000000;
+}
+
+.bg-light {
+  background-color: #ffffff;
+}
